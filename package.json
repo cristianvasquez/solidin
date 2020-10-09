@@ -1,0 +1,15 @@
+{
+  "name": "solidin",
+  "version": "0.0.1",
+  "description": "Solidin es tu amigo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@solid/community-server": "^0.1.1",
+    "cors": "^2.8.5"
+  },
+  "author": "Cristian Vasquez",
+  "license": "MIT"
+}
