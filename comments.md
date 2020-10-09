@@ -9,7 +9,7 @@ Pros:
 
 Cons:
 - Tries to do too much stuff. It's an elephant.
-- Uses a house-made dependency injection framework. Development is difficult
+- Uses a non-orthodox dependency injection framework. Development is difficult
 - Architected with excessive interdependencies. 
 - Complexity is already high (cannot grow too much).
 
