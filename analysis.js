@@ -1,7 +1,7 @@
 /**
  * Components.js. :'(
  */
-
+ 
 const cors = require('cors');
 const {
   RuntimeConfig,
