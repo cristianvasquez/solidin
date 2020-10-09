@@ -1,7 +1,7 @@
 {
   "name": "solidin",
   "version": "0.0.1",
-  "description": "Solidin es tu amigo",
+  "description": "quick look into the server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,4 @@
     "@solid/community-server": "^0.1.1",
     "cors": "^2.8.5"
   },
-  "author": "Cristian Vasquez",
-  "license": "MIT"
 }
