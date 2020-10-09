@@ -16,7 +16,4 @@ Cons:
     - Operation handlers all around. This could be an interface a third party store implements
 
 Examples: 
- 'Composite Store' a complicated object with url patterns and all. 
-
-
-not to use yet.
+ 'Composite Store' + url patterns + several stores. Why not to just mount a store to a path? 
