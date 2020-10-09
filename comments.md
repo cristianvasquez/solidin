@@ -8,14 +8,13 @@ Pros:
 - Can use distinct stores
 
 Cons:
-- Tries to do too much stuff. It's an elephant.
-- Uses a non-orthodox dependency injection framework. Development is difficult
-- Architected with excessive interdependencies. 
-- Complexity is already high (cannot grow too much).
+- Architected to do too much stuff. It's an elephant. 
+- Uses a non-orthodox dependency injection framework. 
+- Complexity is already high, too many interdependencies
 
 * Several components could be transformed into small express modules.
-    - Transformation of representations from A <=> B could be done outside this codebase.
-    - Operation handlers all around. This could be an interface a third party store implements
+    - Representations from A <=> B could be taken out of this codebase.
+    - Operation handlers all around. Several stores mixed in. Lacks the concept of adapter.
 
-Examples: 
- 'Composite Store' + url patterns + several stores. Why not to just mount a store to a path? 
+Example: 
+ 'Composite Store' + url patterns + several stores. 
